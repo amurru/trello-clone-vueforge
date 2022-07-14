@@ -16,6 +16,7 @@ module.exports = {
     },
   ],
   rules: {
-    "vue/multi-word-component-names": 0,
+    "vue/multi-word-component-names": "off",
   },
+  ignorePatterns: ["*.config.js"],
 };
